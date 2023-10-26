@@ -3,10 +3,27 @@
 
 <head>
     <title>Google Drive Video</title>
+    <style>
+        /* body와 html에 100% 높이를 설정합니다. */
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            /* 스크롤 바를 숨깁니다. */
+        }
+    
+        /* iframe의 크기를 화면에 맞게 설정합니다. */
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <iframe width="560" height="315" src="https://drive.google.com/file/d/1srZQqCNTbSeyj0rxmG-vJw70d3boQZgi/preview"></iframe>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/878335487?h=783a153aa9"
+        frameborder="0" allowfullscreen></iframe>
 </body>
 
 </html>
